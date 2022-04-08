@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Multi-Twitch</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="/asset/icon.svg">
+<link rel="stylesheet" href="/asset/style.css">
+</head>
+<body>
+<div class="main"><div class="ctr"><div class="btn" onclick="add()"><span class="icon-add"></span></div><div class="btn" onclick="minus()"><span class="icon-minus"></span></div><select id="col" class="select rtf" onchange="chg(this)"></select></div><div id="vid"></div></div>
+<div id="chat"></div>
+<div id="bg"><div class="box"><div class="btn rtf" onclick="x()"><span class="icon-x"></span></div><input id="inp" type="text" autocomplete="off" placeholder="Twitch username"><div class="btn rtf" onclick="go()"><span class="icon-go"></span></div></div></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/interact.js/1.10.11/interact.min.js"></script>
+<script src="/asset/script.js"></script>
+</body>
+</html>
